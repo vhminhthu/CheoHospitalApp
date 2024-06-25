@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_doctor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_Doctor">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/pagerMain"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="5dp"
+        app:cardCornerRadius="30dp"
+        android:elevation="5dp"
+        android:translationZ="10dp">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNav"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            style="@style/CustomBottomNavStyle"
+            app:menu="@menu/menu_doctor" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="lavenderrose">#FFA0E7</color>
+    <color name="bubblegum">#FFCDD1</color>
+    <color name="rosepink">#FF72CE</color>
+    <color name="lighthotpink">#FFB2DC</color>
+    <color name="shampoo">#FFCCF0</color>
+    <color name="hotpink">#FF5CBC</color>
+    <color name="cottoncandy">#FFBBD7</color>
+    <color name="cherryblossompink">#FFB6C8</color>
+    <color name="flowergirl">#FF9FB7</color>
+    <color name="cyclamen">#F07BAD</color>
+    <color name="miskyrose">#FFE3DF</color>
+
+    <color name="denim">#0B67BE</color>
+    <color name="mediumblue">#0400C5</color>
+    <color name="neonblue">#1000A1</color>
+    <color name="nonphotoblue">#99D6F6</color>
+    <color name="frenchskyblue">#6FADFA</color>
+</resources>
